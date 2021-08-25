@@ -64,11 +64,19 @@ header nav {
   /* grid-area: middle / 1 / bottom / 4; */
 }
 
+header nav .banner-links {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  list-style: none;
+}
+
 .banner-links {
   display: flex;
   flex-flow: row nowrap;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: space-around;
   list-style: none;
 }
 
